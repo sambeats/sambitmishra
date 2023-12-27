@@ -8,8 +8,9 @@ const Projects = () => {
     <Container id='project'>
         <Zoom>
             <h1>Recent <span className="green">Projects</span></h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto doloremque 
-            voluptate excepturi porro sed totam quis animi dolorum rerum earum.</p>
+            <p>Looking for projects that align with your vision? 
+                Need similar transformative solutions for your organization? 
+                Connect with me to unlock the true potential of your business! Let's create wonders that elevate your organization to new heights.</p>
         </Zoom>
         <Slide>
             <SliderComp/>

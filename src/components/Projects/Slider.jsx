@@ -5,26 +5,24 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 
 let data = [
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    },
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    }
+  {
+    projectName : "Hastlekh",
+    img : "https://imgur.com/GpXpDts.png",
+    disc : "Empowering the community with accessible handwriting! This tool enables users, including those with disabilities, to input text through various modes and transforms it into a universally distinctive handwriting style. Embracing inclusivity and ethically designed for diverse communication needs.",
+    demoLink : "https://sambitmishra.netlify.app/#Projects"
+  },
+  {
+    projectName : "Tathastu",
+    img : "https://imgur.com/35wXFZg.png",
+    disc : "Created during Covid-19 to address the challenge of tiffin delivery and shortage of ambulances for quick hospital transits during emergency. Tathastu is the one-stop junction for all such contingencies!",
+    demoLink : "https://youtu.be/QjkWWA3qk9M?si=jSvLKHnvUVqZ-1i7"
+  },
+  {
+    projectName : "SBI-Hackathon",
+    img : "https://static.techgig.com/files/contest_upload_files/og-image.png",
+    disc : "National runner-up SBI-Innovate for Bank 2022. Achieved image compression from 1.5MB to 0.01 MB without loss of quality using image processing techniques. Used Python, OpenCV, and Flask.",
+    demoLink : "https://www.linkedin.com/posts/mishra-sambit_kalam-sbi-hackathon-activity-6994361947538276352-z-XG?utm_source=share&utm_medium=member_desktop"
+  }
 ];
 
 var settings = {

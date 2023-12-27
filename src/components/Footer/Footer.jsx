@@ -4,7 +4,7 @@ import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
-import { FiMail, FiPhoneCall } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
 const Footer = () => {
@@ -25,21 +25,21 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
+            <p>Hyderabad, Telangana (India)</p>
           </Slide>
         </div>
         <div className="links">
           <Slide direction="left">
             <h1>Contact me directly:</h1>
           </Slide>
-          <div>
+          {/* <div>
             <span>
               <FiPhoneCall />
             </span>
             <Slide direction="left">
               <a href="tel:+91-0000000000">+47 333 78 901</a>
             </Slide>
-          </div>
+          </div> */}
           <div>
             <Slide direction="left">
               <span>

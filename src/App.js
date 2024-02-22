@@ -16,7 +16,7 @@ function App() {
       <LightColor>
         <Projects />
       </LightColor>
-      <Clients />
+      {/* <Clients /> */}
       <LightColor>
         <Footer />
       </LightColor>

@@ -13,7 +13,7 @@ const ProfComponent = () => {
             Hello <span className="green">I'am</span>
           </h4>
           <h1 className="green">Sambit Mishra</h1>
-          <h3>Software Engineer, Cloud and AI Consultant, Musician, Writer</h3>
+          <h3>Software Engineer @ Microsoft, Cloud and AI Consultant, Musician, Writer</h3>
           <p>
             "A versatile professional with expertise in Software Engineering, Cloud & AI Consultancy and Music. 
             Dive into my diverse world of talents through my portfolio! 

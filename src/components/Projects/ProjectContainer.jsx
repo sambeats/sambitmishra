@@ -92,7 +92,7 @@ const CardContainer = styled.div`
   img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: fit;
     transition: transform 0.3s ease-in-out;
   }
 
@@ -106,6 +106,7 @@ const CardContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    height: 100%;
   }
 
     h2 {

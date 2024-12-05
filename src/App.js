@@ -29,9 +29,9 @@ export default App;
 const Container = styled.div``;
 const Banner = styled.div`
   background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
-  height: 100vh;
+  min-height: 50vh;
   @media (max-width: 640px) {
-    height: 100%;
+    min-height: 50vh;
     padding-bottom: 2rem;
   }
 `;

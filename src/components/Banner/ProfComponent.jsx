@@ -7,10 +7,9 @@ import { Slide } from "react-awesome-reveal";
 const ProfComponent = () => {
   return (
     <Container id="home">
-      <Slide direction="left">
         <Texts>
           <h4>
-            Hello <span className="green">I'am</span>
+            Hello <span className="green">I'm</span>
           </h4>
           <h1 className="green">Sambit Mishra</h1>
           <h3>Software Engineer @ Microsoft, Cloud and AI Consultant, Musician, Writer</h3>
@@ -29,7 +28,7 @@ const ProfComponent = () => {
                 </a>
               </span>
               <span>
-                <a href="https://www.github.com/MAVIN-07">
+                <a href="https://www.github.com/sambeats">
                   <FaGithub/>
                 </a>
               </span>
@@ -51,15 +50,12 @@ const ProfComponent = () => {
             </div>
           </Social>
         </Texts>
-      </Slide>
-      <Slide direction="right">
         {/* <Profile>
           <img
             src="https://media.licdn.com/dms/image/D5603AQFDwROgfGiaYQ/profile-displayphoto-shrink_400_400/0/1667735748448?e=1709164800&v=beta&t=K1dQCQAqDODcPNysRSavj8GOoq7T5xlgXjbSvc_l5_0"
             alt="profile"
           />
         </Profile> */}
-      </Slide>
     </Container>
   );
 };

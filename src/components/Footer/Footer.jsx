@@ -17,21 +17,13 @@ const Footer = () => {
   return (
     <Container id="footer">
       <Profile>
-        <Slide direction="left" delay={1}>
           <h1>Contact</h1>
-        </Slide>
         <div className="address">
-          <Slide direction="left">
             <h1>Address:</h1>
-          </Slide>
-          <Slide direction="left">
             <p>Hyderabad, Telangana (India)</p>
-          </Slide>
         </div>
         <div className="links">
-          <Slide direction="left">
             <h1>Contact me directly:</h1>
-          </Slide>
           {/* <div>
             <span>
               <FiPhoneCall />
@@ -41,35 +33,25 @@ const Footer = () => {
             </Slide>
           </div> */}
           <div>
-            <Slide direction="left">
               <span>
                 <HiOutlineMailOpen />
               </span>
-            </Slide>
-            <Slide>
               <a href="mailto:sambitmishra1968@gmail.com">sambitmishra1968@gmail.com</a>
-            </Slide>
           </div>
         </div>
         <div className="profiles">
-          <Slide direction="left">
             <h1>Check my profiles</h1>
-          </Slide>
           <div className="icons">
-            <Zoom>
               <span>
-                <a href="https://www.github.com/MAVIN-07">
+                <a href="https://www.github.com/sambeats">
                   <AiFillGithub />
                 </a>
               </span>
-            </Zoom>
-            <Zoom>
               <span>
                 <a href="https://www.linkedin.com/in/mishra-sambit">
                   <AiFillLinkedin />
                 </a>
               </span>
-            </Zoom>
           </div>
         </div>
         <Fade>
@@ -79,7 +61,6 @@ const Footer = () => {
         </Fade>
       </Profile>
       <Form>
-        <Slide direction="right">
           <form>
             <div className="name">
               <span>
@@ -101,7 +82,6 @@ const Footer = () => {
             </div>
             <button>Submit</button>
           </form>
-        </Slide>
       </Form>
     </Container>
   );

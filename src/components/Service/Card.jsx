@@ -15,12 +15,19 @@ const Card = (props) => {
 export default Card;
 
 const Container = styled.div`
+    height: 320px;
     width: 100%;
     background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
+    border-radius: 8px;
     padding: 1rem;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
     span{
         font-size: 4rem;
+    }
+
+    &:hover {
+        transform: scale(1.05);
     }
     
     h1{
